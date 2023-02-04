@@ -42,7 +42,7 @@ function App() {
 
   return (
     <CookiesProvider>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         {openModal && !hasCookie && (
           <Modal
             closeModal={() => setOpenModal(false)}
