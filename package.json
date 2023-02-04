@@ -1,7 +1,7 @@
 {
   "name": "doubleup_gg",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -39,7 +39,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://wkdrhkdwls.github.io/doubleup/",
+  "homepage": "https://wkdrhkdwls.github.io/doubleup",
   "eslintConfig": {
     "extends": [
       "react-app",
